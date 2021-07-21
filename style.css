@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #ebebeb;
+    width: 100%;
+}
+h1, h2, h3{
+    width: max-content;
+    margin: auto;
+}
+h1{
+    color: white;
+}
+h2{
+    font-size: 18px;
+}
+h3{
+    font-size: 14px;
+    font-weight: lighter;
+    margin: 27px auto;
+}
+a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #000;
+}
+/*||||HEADER||||*/
+
+
+.nav_menu{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.5rem 0 2rem;
+    background-color: white;
+    align-items: center;
+    
+}
+.nav_menu .nav_list {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 1rem;
+}
+.nav_list li:hover{
+    transition: all 1s;
+    transform-origin: center;
+    transform: rotateZ(360deg);
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+}
+.hero{
+    width: 100%;
+    height: 100%;
+    background: url(./img/Disco-Vinil-Hero_Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:9rem ;
+}
+#logo_body{
+    width: min-content;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+/*||||MAIN||||*/
+
+main{
+    height: 100%;
+    width: 100%;
+}
+.section_container{
+    width: 95vw;
+    height: 100vh;
+    margin: auto;
+    padding-top: 8rem;
+}
+#equipments{
+    height: max-content;
+}
+.equipments_grid{
+    display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-between;
+   
+}
+.equipment_box{
+    width: 43.48vw;
+    height: 48.30vw;
+    background-color: white;
+    margin: 8px 8px 8px 8px;
+}
+.equipment_img{
+    width: 95%;
+    height: 70%;
+    margin: 4px auto 0;
+    border-bottom: solid 0.1px rgb(187, 186, 186);
+    
+}

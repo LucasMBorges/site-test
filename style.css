@@ -12,6 +12,8 @@ body
 h1, h2, h3{
     width: max-content;
     margin: auto;
+color: #303030;
+
 }
 h1{
     color: white;
@@ -32,6 +34,7 @@ a{
 p{
 font-family: sans-serif;
 font-size: 18px;
+color: #303030;
 }
 /*||||HEADER||||*/
 
@@ -52,11 +55,6 @@ font-size: 18px;
     display: flex;
     justify-content: space-evenly;
     padding-left: 1rem;
-}
-.nav_list li:hover{
-    transition: all 1s;
-    transform-origin: center;
-    transform: rotateZ(360deg);
 }
 
 header{
@@ -115,6 +113,17 @@ main{
 }
 #textBox{
     height: fit-content;
+}
+#contact{
+    height: 90vh;
+}
+#contact a{
+    color:#303030;
+    font-size: 30px;
+}
+#a{
+    width: fit-content;
+    margin: 10rem auto 0;
 }
 footer{
     width: 100%;
